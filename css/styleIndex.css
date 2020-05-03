@@ -8,10 +8,11 @@ body{
 }
 #menu{position:absolute;
     top: 50px;
-    width: 250px;
-    font-size: 2rem;
+    width: 300px;
+    font-size: 2.5rem;
     transform: perspective(7.5cm) rotateX(0deg) rotateY(15deg);
-    background-color: #000e26e3;
+    background-color: #f4a91e00;
+    color: black;
     
 }
 .container{
@@ -29,15 +30,17 @@ li{
     list-style: none;
 }
 a{
-    color: rgb(5, 167, 216);
+    text-decoration: none;
+   color: black;
     
 }
-h1{
-    
+
+hr{
+
 }
 #sombra{
     position: absolute;
-    top: 323px;
+    top: 335px;
     left: 495px;
     font-size: 13rem;
     transform: perspective(15rem) rotateX(-120deg) rotateY(0deg) rotateZ(0deg) ;
@@ -46,7 +49,7 @@ h1{
 #bemVindo{
     font-size: 10rem;
     position: absolute;
-    top: 300px;
+    top: 312px;
     left: 600px;
 
     color: white;
