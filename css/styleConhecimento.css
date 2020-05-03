@@ -1,0 +1,98 @@
+
+body{
+    position: relative;
+    margin: 0px;
+    background-image: url(../images/FundoTech.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#menu{
+    position:absolute;
+    top: 50px;
+    width: 250px;
+    font-size: 2rem;
+    transform: perspective(7.5cm) rotateX(0deg) rotateY(15deg);
+    background-color: #000e26e3;
+    
+}
+
+li{
+    
+    width: 300px;
+    height: 100px;
+    
+    list-style: none;
+}
+a{
+    color: rgb(5, 167, 216);
+    
+}
+/*     pagina Conhecimento*/
+#conhecimento{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+
+    padding: 50px;
+}
+
+#apresetConhec{
+    background-image: url(../images/notebook.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: auto;
+    height: 599px;
+    width: 1061px;
+    font-size: 3rem;
+    color: rgb(5, 167, 216);
+    text-align: center;
+    padding-top: 50px;
+}
+.tela{
+    width: 774px;
+    height: 484px;
+    background-image: url(../images/Microsoft_Windows_10.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 138px;
+    text-align: center;
+    border-radius: 4px;
+
+
+}
+.tela h1{
+    margin: 0px;
+}
+.base{
+    position: absolute;
+    top: 518px;
+    left: 100px;
+
+    width: 1090px;
+    height: 300px;
+    transform: perspective(950px) rotateX(80deg) ;
+    background-color: #181e2c;
+}
+.container{
+    padding: 90px;
+    background-color: black;
+}
+#javaScript{
+    width: 300px;
+    height: 300px;
+    box-shadow: 4px 4px 4px 4px 4px yellow;
+}
+#css3{
+    width: 300px;
+    height: 400px;
+
+}
+#html5{
+    width: 300px;
+    height: 400px;
+
+}
+
+
