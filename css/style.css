@@ -1,0 +1,152 @@
+body{
+
+    background-color: rgb(97, 100, 100);  
+    background-image: url(../images/Fundo-azul.jpg);
+    margin: auto;
+}
+h1{
+    font-size: 3rem;
+    font-style: inherit;
+}
+h2{
+    font-size: 2rem;
+
+}
+p{
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.portifolio{
+    position: relative;
+    margin-left: -250px;
+    
+}
+.frase{
+    position: absolute;    
+    width: 500px;
+    top: 80px;
+    left: 20px;
+    font-size: 1.5rem;
+    font-style: italic;
+
+    
+}
+#folha1{
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    width: 1200px;
+    height: 2000px;
+    background-image: url(../images/879.jpg);
+    background-size: 100%;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+
+}
+#folha2{
+    position: absolute;
+    left: 20%;
+    top: 100px;
+    width: 1200px;
+    height: 2000px;
+    transform: rotateZ(-1deg);
+    background-image: url(../images/879.jpg);
+    background-size: 100%;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);     
+}
+#folha3{
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    width: 1200px;
+    height: 2000px;
+    background-image: url(../images/879.jpg);
+    background-size: 100%;  
+    transform: rotateZ(-2deg);
+    box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);    
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    
+    display: inline-block;
+}
+input{
+    width: 160px;
+    height: 50px;
+    background-color: #00243c00;
+    color: white;
+    border: 2px #01ffff;
+    font-size: 2rem;
+}
+.container{
+
+    display: flex;
+}
+.part1{
+    width: 580px;
+    margin: 20px;
+}
+.part1 h1 img{
+    width: 40px;
+    height: 40px;
+}
+#sobremin{
+    display: flex;
+    font-size: 1rem;
+    background-color: #01233c;
+    box-shadow: 2px 2px 4px 4px #01ffff77;
+    padding: 20px;
+}
+#colarFoto{
+    width: 190px;
+    height: 190px;
+    margin-right: 10px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #004c7e;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#colarFoto img{
+    width:150px; 
+    height:150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#formaAcad{
+    background-color: #01233c;
+    box-shadow: 2px 2px 4px 4px #01ffff77;
+    padding: 20px;
+}
+#minhashabilidades{
+    background-color: #01233c;
+    box-shadow: 2px 2px 4px 4px #01ffff77;
+    padding: 20px;
+text-align: center;
+}
+#office{
+    padding: 10px;
+    width:180px; 
+    height:150px;
+}
+#js{
+    width:150px; 
+    height:150px;
+}
+#css3{
+    width:120px; 
+    height:150px;
+}
+#html5{
+    width:120px; 
+    height:150px;
+}
