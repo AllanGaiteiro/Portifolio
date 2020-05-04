@@ -30,7 +30,7 @@ a{
     width: 500px;
     top: 80px;
     left: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: italic;
 
     
@@ -76,7 +76,6 @@ nav{
 }
 
 li{
-    
     display: inline-block;
 }
 input{
@@ -102,7 +101,7 @@ input{
 #sobremin{
     display: flex;
     font-size: 1rem;
-    background-color: #01233c;
+    background-color: #01233ca9;
     box-shadow: 2px 2px 4px 4px #01ffff77;
     padding: 20px;
 }
@@ -112,7 +111,7 @@ input{
     margin-right: 10px;
     margin-top: 30px;
     text-align: center;
-    background-color: #004c7e;
+    background-color:#01233ca9;
     box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #colarFoto img{
@@ -123,12 +122,12 @@ input{
     margin-right: 20px;
 }
 #formaAcad{
-    background-color: #01233c;
+    background-color:#01233ca9;
     box-shadow: 2px 2px 4px 4px #01ffff77;
     padding: 20px;
 }
 #minhashabilidades{
-    background-color: #01233c;
+    background-color:#01233ca9;
     box-shadow: 2px 2px 4px 4px #01ffff77;
     padding: 20px;
 text-align: center;
@@ -149,4 +148,40 @@ text-align: center;
 #html5{
     width:120px; 
     height:150px;
+}
+#github{
+    background-color:white;
+    box-shadow: 2px 2px 4px 4px #01ffff77;
+    padding: 20px;
+    border: 10px solid #01233c;
+
+}
+#github a{
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 5.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#parte2{
+    width: 580px;
+    margin: 20px;
+}
+
+#contate_me a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #087AEA;
+    border: 10px solid #087AEA;
+    box-shadow: 2px 2px 4px 4px #01ffff77;
+    color: #FFFFFF;
+
+    font-size: 4rem;
+
+    font-family: "Bahnschrift Light "condensed;
+
+}
+#contate_me p{
+    font-size: 2rem;
 }
