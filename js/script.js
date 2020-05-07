@@ -19,18 +19,23 @@ var evento = function (a) {
 }*/
 var mouseEnter = []
 var mouseOut = []
+var count
+var scale = 0
 var eventScal = 
 [
-    'github',
+    'github','soloPlayer','forca',
     'face',
-    'linkedin'
+    'linkedin',
+    'velha'
 ] 
-for (var i in eventScal) {
+for (var i = 0; i < eventScal.length; i++) {
     var nome = eventScal[i]
+    
     mouseEnter[i] = document.getElementById(nome).addEventListener('mouseenter',function (){
-        this.style.transform = 'scale(1.1,1.1)'
-    })
+        this.style.transform = 'scale(1.01,1.05)'
+    }) 
     mouseOut[i] = document.getElementById(nome).addEventListener('mouseout', function(){
+        clearInterval(count)
         this.style.transform = 'scale(1.0,1.0)'
     })
 }
