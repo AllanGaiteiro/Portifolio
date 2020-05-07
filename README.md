@@ -1,2 +1,8 @@
 #Meu Portifólio
-Onde  eu colocarei um poco sobre min
+  
+  Onde Eu colocarei um pouco mais sobre oque estou fazendo
+  link do  portifólio:
+  https://allangaiteiro.github.io/Portifolio/
+  
+   
+  
