@@ -17,6 +17,7 @@ var evento = function (a) {
     })
 
 }*/
+/*
 var mouseEnter = []
 var mouseOut = []
 var count
@@ -39,3 +40,4 @@ for (var i = 0; i < eventScal.length; i++) {
         this.style.transform = 'scale(1.0,1.0)'
     })
 }
+*/

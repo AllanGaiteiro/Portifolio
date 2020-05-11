@@ -1,8 +1,9 @@
-@media (max-width:600px) {
+@media (max-width:600px){
     body {
-        background-color: rgb(97, 100, 100);
+        width: 100%;
+        background-image: url(../images/Fundo-azul.jpg);
         margin: auto;
-        padding: 100px;
+        padding: 0px;
         text-align: center;
     }
     h1 {
@@ -21,52 +22,56 @@
         color: white;
     }
     .portifolio {
-        width: 2000px;
+        width: 100%;
         position: relative;
         margin: auto;
     }
     .frase {
-        position: absolute;
-        width: 500px;
-        top: 80px;
-        left: 20px;
+        width: 80%;
         font-size: 1rem;
         font-style: italic;
     }
     #folha1 {
         position: absolute;
-        top: 100px;
-        width: 1200px;
-        height: 1800px;
-        background-color: white;
-
-        background-size: 100%;
+        top: 20px;
+        width: 100%;
+        background-image: url(../images/879.jpg);
+        background-size: 500% 100%;
+        background-repeat: no-repeat;
         box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
         color: white;
     }
     #folha2 {
         position: absolute;
-        top: 100px;
-        width: 1200px;
-        height: 1800px;
-        transform: rotateZ(-1deg);
-
-        background-size: 100%;
+        top: 1000px;
+        left: -50%;
+        width: 100%;
+        background-image: url(../images/879.jpg);
+        background-size: 500% 100%;
+        background-repeat: no-repeat;
         box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+        color: white;
+        transform: rotateZ(-6deg);
+
     }
     #folha3 {
         position: absolute;
-        top: 100px;
-        width: 1200px;
-        height: 1800px;
-
-        background-size: 100%;
-        transform: rotateZ(-2deg);
-        box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        top: 2000px;
+        left: -50%;
+        width: 100%;
+        background-image: url(../images/879.jpg);
+        background-size: 500% 100%;
+        background-repeat: no-repeat;
+        box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+        color: white;
+        transform: rotateZ(-12deg);
     }
     nav {
-        display: flex;
+        display: block;
         justify-content: space-around;
+    }
+    ul{
+        margin-top: 60px;
     }
     li {
         display: inline-block;
@@ -81,39 +86,38 @@
         cursor: pointer;
     }
     .container {
-        display: flex;
+        display: block;
     }
     /*//////////////////////////////////////////////*/
     .part1 {
-        width: 580px;
-        margin: 20px;
+        width: 100%;
+        margin: auto;
     }
     .part1 h1 img {
         width: 40px;
         height: 40px;
     }
     #sobremin {
-        display: flex;
+        display: block;
+        margin: auto;
+        text-align: center;
         font-size: 1rem;
         background-color: #01233ca9;
         box-shadow: 2px 2px 4px 4px #01ffff77;
         padding: 20px;
+        font-size: 1.5rem;
     }
     #colarFoto {
+        margin: auto;
         width: 190px;
         height: 190px;
-        margin-right: 10px;
-        margin-top: 30px;
-        text-align: center;
         background-color: #01233ca9;
         box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
     }
     #colarFoto img {
+        
         width: 150px;
         height: 150px;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
     #formaAcad {
         background-color: #01233ca9;
@@ -145,9 +149,9 @@
     }
     /*/////////////////////////////////////////////////////*/
     #parte2 {
-        width: 540px;
-        margin: 20px;
-        padding: 20px;
+        width: 100%;
+        margin: auto;
+        padding: 0px;
     }
     #parte2 h2 {
         margin-top: 20px;
@@ -161,6 +165,9 @@
         margin-top: 0px;
         margin-bottom: 5px;
     }
+    #feitos{
+        margin: auto;
+    }
     #areaProfficional {
         text-align: center;
         background-color: #01233ca9;
@@ -171,19 +178,16 @@
         margin-bottom: 0px;
     }
     #areaProfficional p {
-        padding: 20px;
         margin-top: 0px;
     }
     #areaAcademica {
-        padding-top: 20px;
-        margin-top: 20px;
         background-color: #01233ca9;
         /*border: 10px solid #087AEA;*/
         box-shadow: 2px 2px 4px 4px #01ffff77;
-        text-align: center;
+        margin: auto;
     }
     #areaAcademica button {
-        width: 500px;
+        width: 100%;
         display: block;
         background-color: rgba(0, 0, 0, 0);
         border: none;
@@ -191,19 +195,18 @@
         cursor: pointer;
     }
     #areaAcademica button img {
-        width: 100%;
-        height: 150px;
-        border: 10px solid #01233c;
-        /*box-shadow: 2px 2px 4px 4px #01ffff77;*/
+        width: 90%;
+        height: 200px;
         margin-bottom: 20px;
     }
     #contate_me {
-        margin-top: 20px;
+        margin: auto;
         padding: 20px;
         background-color: #01233ca9;
         box-shadow: 2px 2px 4px 4px #01ffff77;
     }
     #contate_me button {
+
         width: 300px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -215,6 +218,6 @@
         font-family: "Bahnschrift Light "condensed;
     }
     #contate_me p {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
