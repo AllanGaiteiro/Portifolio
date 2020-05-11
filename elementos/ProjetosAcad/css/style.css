@@ -62,18 +62,18 @@ p{
 }
 
 #soloPlayer{
-    background-image: url(../../../../images/Screenshot_2.png);
+    background-image: url(../../../images/Screenshot_2.png);
     background-size: 100% 100%;
     background-position: bottom;
 }
 
 #forca{
-    background-image: url(../../../../images/Screenshot_1.png)
+    background-image: url(../../../images/Screenshot_1.png)
     ;
     background-size: 100% 100%;
 }
 #velha{
-    background-image: url(../../../../images/Screenshot_3.png);
+    background-image: url(../../../images/Screenshot_3.png);
     background-size: 100% 100%;
 }
 #gitHub{
