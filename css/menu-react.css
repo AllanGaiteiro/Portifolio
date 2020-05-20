@@ -1,0 +1,96 @@
+
+/*/////////////////////////////////////////*/
+nav{
+    position: relative;
+    width: 100%;
+    height:100px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.logoName{
+    position: absolute;
+    text-align: left;
+    margin-top: -100px;
+    margin-left: 90px;
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 0px;
+}
+.logoName p{
+    width: 50%;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 2rem;
+    font-style: italic;
+}
+/*  Começo */
+ul{
+    position: relative;
+    width: 100px;
+    height:100px;
+    margin-top: 140px;
+    margin-left: auto;
+    padding: 0px;
+}
+li{
+    background-image: url(../images/bord.png);        
+    background-size: 100% 100%;
+    position: absolute;
+    list-style: none;
+    margin: 0px;
+
+}
+.sobre{
+    top: -114px;
+    left: -132px;
+}
+.feitos{
+    top: -60px;
+    left: -36px;
+}
+.contate{
+    top: 0px;
+    left: -132px;
+
+}
+.sobre a,.feitos a,.contate a{
+    width: 136px;
+    height: 120px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    color: #0280D4;
+}
+a:hover{
+    margin-right: 0px;
+    animation: backCor 500ms linear;
+    transform: scale(1.05,1.05);
+    background-image: url(../images/bord2.png);        
+    background-size: 100% 100%;
+    color: #012F51;
+    font-size: 1.8rem;
+}
+@keyframes backCor {
+    0%{
+        background-image: url(../images/bord.png);
+        transform: scale(1.0,1.0);
+        font-size: 1.6rem;
+        color: #0280D4; 
+    }
+    50%{
+        background-image: url(../images/bord2.png); 
+        transform: scale(1.02,1.02);
+        font-size: 1.7rem;
+
+    }
+    100%{
+        background-image: url(../images/bord2.png); 
+        transform: scale(1.04,1.04);
+        font-size: 1.8rem;
+        color: #012F51;
+    }
+}

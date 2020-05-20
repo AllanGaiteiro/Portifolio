@@ -6,14 +6,6 @@ body{
     text-align: center;    
 
 }
-
-#objMenu{
-    width: 100%;
-    height:270px;
-    margin: 0px;
-    padding: 0px;
-
-}
 #objProjetAcad {
     width: 100%;
     height: 1100px;
@@ -31,7 +23,7 @@ h2{
 p{
     font-size: 1.2rem;
 }
-a{
+address a{
     text-decoration: none;
     font-size: 1.5rem;
     color: white;
@@ -62,15 +54,9 @@ a{
 #folha3{ 
     transform: rotateZ(-2deg);
 }
-nav{
-    margin: 0px;
-    padding: 0px;    
-
-}
 
 .container{
     margin: 0px;
-    margin-top: -100px;
     display: flex;
 }
 /*//////////////////////////////////////////////*/
@@ -82,11 +68,11 @@ nav{
     width: 40px;
     height: 40px;
 }
-#sobremin,#formaAcad,#minhashabilidades,#areaProfficional,#areaAcademica,#contate_me{
+#sobre,#formaAcad,#minhashabilidades,#areaProfficional,#areaAcademica,#contate{
     background-color:#01233ca9;
     box-shadow: 2px 2px 4px 4px #01ffff77;
 }
-#sobremin{
+#sobre{
     display: flex;
     font-size: 1rem;
     padding: 20px;
@@ -181,11 +167,11 @@ text-align: center;
     /*box-shadow: 2px 2px 4px 4px #01ffff77;*/
     margin-bottom: 20px;    
 }
-#contate_me{
+#contate{
     margin-top: 20px;
     padding: 20px;
 }
-#contate_me button{
+#contate button{
     width: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -200,7 +186,7 @@ text-align: center;
     font-family: "Bahnschrift Light "condensed;
 
 }
-#contate_me p{
+#contate p{
     font-size: 2rem;
 }
 
@@ -222,7 +208,7 @@ text-align: center;
     p {
         font-size: 1rem;
     }
-    a {
+    address a {
         text-decoration: none;
         font-size: 1rem;
         color: white;
@@ -291,7 +277,7 @@ text-align: center;
         width: 40px;
         height: 40px;
     }
-    #sobremin{
+    #sobre{
         display: block;
     }
   #colarFoto {
@@ -325,18 +311,18 @@ text-align: center;
         height: 200px;
         margin-bottom: 20px;
     }
-    #contate_me {
+    #contate {
         margin: auto;
         padding: 20px;
 
     }
-    #contate_me button {
+    #contate button {
 
         width: 80%;
         font-size: 2rem;
         font-family: "Bahnschrift Light "condensed;
     }
-    #contate_me p {
+    #contate p {
         font-size: 1rem;
     }
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu-react.css">
     <title>Portifólio do Allan Gaieiro</title>
 </head>
 
@@ -13,14 +14,16 @@
         <div id="folha3"></div>
         <div id="folha2"></div>
         <div id="folha1">
-            <nav>
-                <object id="objMenu" data="elementos/menu/index.html" type=""></object>
+
+            <nav id='menu-react'>
+               <!---Componte React----> 
             </nav>
+            
             <div class="container">
 
                 <section class="part1">
                     <h1><img src="images/SobreMinAvatar.png" alt=""> Sobre min</h1>
-                    <div id="sobremin">
+                    <div id="sobre">
                         <div id="colarFoto"><img src="images/minha foto.jpg" alt=""></div>
 
                         <p>Olá, meu nome é Allan Gaiteiro tenho 23 anos sou Ararense e estou cursando o ensino superior
@@ -61,7 +64,7 @@
                         </div>
 
                     </div>
-                    <footer id=contate_me>
+                    <footer id=contate>
                         <h1>Contate-me</h1>
                         <address>
 
@@ -83,7 +86,9 @@
             </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="js/menu-react.js"></script>
 </body>
 
 </html>
