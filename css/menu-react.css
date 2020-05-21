@@ -65,7 +65,7 @@ li{
     font-family: sans-serif;
     color: #0280D4;
 }
-a:hover{
+.sobre a:hover,.feitos a:hover,.contate a:hover{
     margin-right: 0px;
     animation: backCor 500ms linear;
     transform: scale(1.05,1.05);

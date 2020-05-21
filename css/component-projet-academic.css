@@ -1,0 +1,102 @@
+/*
+body{
+width: 500px;
+margin: 0px;
+}*/
+section{
+    width: 500px;
+    height: 250px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+.aProjet{
+    position: relative;
+    display: table-cell;
+    width: 500px;
+    height: 250px;
+    /*background-color: aqua;*/
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+}
+.aProjet:hover{
+    color: black;
+
+}
+.name,.descr{
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0);
+    width: 100%;
+    margin: 0px;
+}
+.name:hover,.descr:hover{
+    animation: cordfund 500ms linear;
+    color: white;
+    background-color: rgb(1, 35, 60,0.7);
+    transform: scale(1.05,1.05);
+    margin-left: 10px;
+    width: 480px;
+}
+
+.name{
+    top: -5%;
+    height: 60px;
+    line-height:60px;
+    font-size: 2rem;
+}
+.descr{
+    bottom: 0%;
+font-size: 1.5rem;
+}
+p{
+    font-size: 1.2rem;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#soloPlayer{
+    background-image: url(../images/Screenshot_2.png);
+    background-size: 100% 100%;
+    background-position: bottom;
+}
+
+#forca{
+    background-image: url(../images/Screenshot_1.png)
+    ;
+    background-size: 100% 100%;
+}
+#velha{
+    background-image: url(../images/Screenshot_3.png);
+    background-size: 100% 100%;
+}
+#gitHub{
+    background-image: url(../images/Git.png);
+    background-size: 100% 100%;   
+}
+@keyframes cordfund {
+    0%{
+        background-color: rgba(1, 35, 60, 0);
+        color: black;
+    }
+    100%{
+        background-color: rgb(1, 35, 60,0.7);
+        color: white;
+    }
+}
+
+@media (max-width:600px){
+    :root{
+        --wid: 100%;
+        --hei: 250px;
+        --separa: 20px;
+        --Cor:rgb(1, 35, 60);
+    }
+    h2{
+        color: white;
+        background-color: rgba(1, 35, 60, 0.5);
+    }
+    
+}
