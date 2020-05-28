@@ -1,7 +1,7 @@
 
 
 const info = [
-    { id: 'soloPlayer', title: 'Jogo Solo Player', detalhes: 'Um jogo criado em quanto aprendia orientaçao obeto. Uma prológo de um jogo meu homenageando o manhua coreano "Solo Leveling"', link: 'https://allangaiteiro.github.io/jogo-Solo-Player/' },
+    { id: 'soloPlayer', title: 'Jogo Solo Player', detalhes: 'Um jogo criado em quanto aprendia orientaçao obeto. Uma prológo de um jogo meu homenageando o manhua coreano "Solo Leveling"', link: 'https://allangaiteiro.github.io/jogo-rpg-Solo-Player/' },
 
     {
         id: 'forca', title: 'Forca', detalhes: 'Um jogo de forca comun. minha ideia é fazer a animaçao dele indo atá a forca em vez de montar ele.Porêm ainda esta sem animação',
